@@ -1,0 +1,6 @@
+algorithm,queries,reached,optimal_queries,mean_cost_model_m,mean_expanded,mean_median_runtime_ms,mean_gap_percent,max_gap_percent
+UCS,50,50,50,997.549,30.72,0.097507,0.0,0.0
+Greedy Euclidean,50,50,29,1080.755,8.64,0.036538,8.259,70.018
+A* Euclidean,50,50,50,997.549,13.78,0.070078,0.0,0.0
+A* Scaled Manhattan,50,50,50,997.549,16.48,0.084521,0.0,0.0
+A* Raw Manhattan,50,50,42,999.13,10.52,0.052412,0.16,4.277

@@ -1,0 +1,71 @@
+{
+  "seed": 42,
+  "pairs": 50,
+  "repeats": 21,
+  "timing": "Mean of per-query medians, one untimed warm-up, search only including trace construction",
+  "python": "3.14.7",
+  "platform": "Linux-7.2.9-1-cachyos-x86_64-with-glibc2.44",
+  "nodes": 52,
+  "directed_arcs": 126,
+  "scale_model_m_per_reference_pixel": 1.0,
+  "units": "estimated model metres",
+  "summary": [
+    {
+      "algorithm": "UCS",
+      "queries": 50,
+      "reached": 50,
+      "optimal_queries": 50,
+      "mean_cost_model_m": 997.549,
+      "mean_expanded": 30.72,
+      "mean_median_runtime_ms": 0.097507,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0
+    },
+    {
+      "algorithm": "Greedy Euclidean",
+      "queries": 50,
+      "reached": 50,
+      "optimal_queries": 29,
+      "mean_cost_model_m": 1080.755,
+      "mean_expanded": 8.64,
+      "mean_median_runtime_ms": 0.036538,
+      "mean_gap_percent": 8.259,
+      "max_gap_percent": 70.018
+    },
+    {
+      "algorithm": "A* Euclidean",
+      "queries": 50,
+      "reached": 50,
+      "optimal_queries": 50,
+      "mean_cost_model_m": 997.549,
+      "mean_expanded": 13.78,
+      "mean_median_runtime_ms": 0.070078,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0
+    },
+    {
+      "algorithm": "A* Scaled Manhattan",
+      "queries": 50,
+      "reached": 50,
+      "optimal_queries": 50,
+      "mean_cost_model_m": 997.549,
+      "mean_expanded": 16.48,
+      "mean_median_runtime_ms": 0.084521,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0
+    },
+    {
+      "algorithm": "A* Raw Manhattan",
+      "queries": 50,
+      "reached": 50,
+      "optimal_queries": 42,
+      "mean_cost_model_m": 999.13,
+      "mean_expanded": 10.52,
+      "mean_median_runtime_ms": 0.052412,
+      "mean_gap_percent": 0.16,
+      "max_gap_percent": 4.277
+    }
+  ],
+  "closed_roads": [],
+  "verification": null
+}
